@@ -1,0 +1,79 @@
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+ }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+   text-align: justify;
+}
+
+ .boldCenterText {
+   text-align: center;
+   font-size: 1.2em;
+   font-weight: bold;
+ }
+
+ .red {
+    color: red;
+ }
+
+ .blue {
+    color: blue;
+ }
+
+ .blueBoldText {
+    color: blue;
+    font-size: 1.2em;
+    font-weight: bold;
+ }
+
+ img {
+    width: 150px;
+ }
+
+ .boldCenterText img {
+   width: 400px;
+ }
+
+ .rightcolumn {
+    text-align: center;
+ }
+
+ table {
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  td {
+    border: 1px solid black;
+  }
+  
+  th {
+    border: none;
+  }
+
+  tr {
+    height: 35px;
+  }
+
+.no-margin {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
